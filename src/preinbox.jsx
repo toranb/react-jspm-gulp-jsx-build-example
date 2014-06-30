@@ -3,7 +3,7 @@ import AsyncReactComponent from './component';
 
 var PreInbox = React.createClass({displayName: 'PreInbox',
     mixins: [AsyncReactComponent],
-    bundle: './app/inbox',
+    bundle: './build/inbox',
     preRender: function() {
       return <div>Loading inbox...</div>
     }
